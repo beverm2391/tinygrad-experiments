@@ -10,6 +10,7 @@ Update submodules:
 ## TODO
 - [ ] follow the basic MLP example from the tinygrad README, get it training
 - [ ] train a model on MNIST or something
+- [ ] work through all the docs
 
 ## Hopes and Dreams
 - [ ] reverse engineer and annotate the transformer example
