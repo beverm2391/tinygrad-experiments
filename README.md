@@ -24,6 +24,7 @@ Update submodules:
 - [ ] reverse engineer and annotate the transformer example
 - [ ] try to implement a transformer from scratch
   - [ ] add something cool like sliding window attention, flash attention, rotary (RoPE) embeddings, speculative decoding etc.
+- [ ] speed up something with this [linalg paper](https://arxiv.org/abs/2309.03060)
 
 ## Notes
 
