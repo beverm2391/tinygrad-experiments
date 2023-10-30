@@ -14,19 +14,19 @@ Update submodules:
 - [X] work through all the docs
   - [X] quickstart.md
   - [X] abstractions.py
+- [X] annotate mlops.py
+- [X] I think I should go and annotate the tensor class
+  - [ ] line 470 -> end still TODO
 
 ## TODO
-- [ ] annotate mlops.py
-- [ ] I think I should go and annotate the tensor class
-  - [ ] Maybe make some detailed docs or notes that could be useful to someone else learning the library
+
+- [ ] ConvNet from "scratch" on the MNIST
+- [ ] try to implement a transformer from scratch
+  - [ ] OPTIONAL - reverse engineer and annotate the transformer example
+- [ ] check out some of the [issues on GitHub](https://github.com/tinygrad/tinygrad/issues)
+  - See the [CONTRIBUTING.md](https://github.com/tinygrad/tinygrad/blob/c7f4dd6cb0651ad974f88a4ff2cf7dfe71c5d769/CONTRIBUTING.md)
 
 ## Hopes and Dreams
-- [ ] reverse engineer and annotate the transformer example
-- [ ] try to implement a transformer from scratch
-  - [ ] add something cool like sliding window attention, flash attention, rotary (RoPE) embeddings, speculative decoding etc.
+- [ ] try something cool like sliding window attention, flash attention, rotary (RoPE) embeddings, speculative decoding etc.
 - [ ] speed up something with this [linalg paper](https://arxiv.org/abs/2309.03060)
-
-## Notes
-
-1. What's the point of LazyOps???
-2. In `tensor.py`, `Function` is defined, which is imported by `mlops.py` The problem is, '`tensor.py` also imports `mlops.py`. This is seemingly solved by defining all objects imported by `mlops.py` before its import in `tensory.py`, avoiding a circular import.
+  - [ ] reverse engineer some of [these operator abstractions](https://github.com/wilson-labs/cola) to see how they work 
