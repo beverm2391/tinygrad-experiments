@@ -20,9 +20,16 @@ Update submodules:
 
 ## TODO
 
+### "Higher"
 - [ ] ConvNet from "scratch" on the MNIST
 - [ ] try to implement a transformer from scratch
   - [ ] OPTIONAL - reverse engineer and annotate the transformer example
+
+### "Lower"
+- [ ] try some different backends, compare
+- [ ] try to implement a new example backend (interpreted)
+- [ ] try to implement a new example backend (compiled)
+
 - [ ] check out some of the [issues on GitHub](https://github.com/tinygrad/tinygrad/issues)
   - See the [CONTRIBUTING.md](https://github.com/tinygrad/tinygrad/blob/c7f4dd6cb0651ad974f88a4ff2cf7dfe71c5d769/CONTRIBUTING.md)
 
