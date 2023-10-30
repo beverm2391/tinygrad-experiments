@@ -23,8 +23,14 @@ Update submodules:
 
 ### "Higher"
 - [ ] replicate `tinygrad/examples/simple_conv_bn.py` from scratch with MNIST
+  - https://towardsdatascience.com/conv2d-to-finally-understand-what-happens-in-the-forward-pass-1bbaafb0b148
 - [ ] try to implement a transformer from scratch
   - [ ] OPTIONAL - reverse engineer and annotate the transformer example
+- [ ] find a new example model architecture to add to repo with PR
+  - [ ] port something of [Lucidrains](https://github.com/lucidrains?tab=repositories) over to tinygrad
+    - [ ] [vision transformers](https://github.com/lucidrains/vit-pytorch)
+    - [ ] [x-transformers](https://github.com/lucidrains/x-transformers)
+    - [ ] [x-clip](https://github.com/lucidrains/x-clip)
 
 ### "Lower"
 - [ ] try some different backends, compare
@@ -35,6 +41,6 @@ Update submodules:
   - See the [CONTRIBUTING.md](https://github.com/tinygrad/tinygrad/blob/c7f4dd6cb0651ad974f88a4ff2cf7dfe71c5d769/CONTRIBUTING.md)
 
 ## Hopes and Dreams
-- [ ] try something cool like sliding window attention, flash attention, rotary (RoPE) embeddings, speculative decoding etc.
+- [ ] try something cool like sliding window attention, flash attention, [rotary (RoPE) embeddings](https://github.com/lucidrains/rotary-embedding-torch), speculative decoding etc.
 - [ ] speed up something with this [linalg paper](https://arxiv.org/abs/2309.03060)
   - [ ] reverse engineer some of [these operator abstractions](https://github.com/wilson-labs/cola) to see how they work 
