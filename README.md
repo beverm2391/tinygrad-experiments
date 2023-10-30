@@ -17,6 +17,7 @@ Update submodules:
 - [X] annotate mlops.py
 - [X] I think I should go and annotate the tensor class
   - [ ] line 470 -> end still TODO
+- [X] Build simple dataloader
 
 ## TODO
 
