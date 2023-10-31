@@ -22,8 +22,9 @@ Update submodules:
 ## TODO
 
 ### "Higher"
-- [ ] replicate `tinygrad/examples/simple_conv_bn.py` from scratch with MNIST
-  - https://towardsdatascience.com/conv2d-to-finally-understand-what-happens-in-the-forward-pass-1bbaafb0b148
+- [X] build a conv on MNIST
+  - [ ] see how well you can get conv performing
+- [ ] [here's some papers](https://paperswithcode.com/sota/image-classification-on-mnist) of best performing MNIST models
 - [ ] try to implement a transformer from scratch
   - [ ] https://github.com/fkodom/transformer-from-scratch
   - [ ] https://fkodom.substack.com/p/transformers-from-scratch-in-pytorch
