@@ -44,6 +44,6 @@ Update submodules:
   - See the [CONTRIBUTING.md](https://github.com/tinygrad/tinygrad/blob/c7f4dd6cb0651ad974f88a4ff2cf7dfe71c5d769/CONTRIBUTING.md)
 
 ## Hopes and Dreams
-- [ ] try something cool like sliding window attention, flash attention, [rotary (RoPE) embeddings](https://github.com/lucidrains/rotary-embedding-torch), speculative decoding etc.
+- [ ] try something cool like sliding window attention, [flash attention](https://github.com/Dao-AILab/flash-attention), [rotary (RoPE) embeddings](https://github.com/lucidrains/rotary-embedding-torch), speculative decoding etc.
 - [ ] speed up something with this [linalg paper](https://arxiv.org/abs/2309.03060)
   - [ ] reverse engineer some of [these operator abstractions](https://github.com/wilson-labs/cola) to see how they work 
