@@ -25,12 +25,15 @@ Update submodules:
 - [ ] replicate `tinygrad/examples/simple_conv_bn.py` from scratch with MNIST
   - https://towardsdatascience.com/conv2d-to-finally-understand-what-happens-in-the-forward-pass-1bbaafb0b148
 - [ ] try to implement a transformer from scratch
+  - [ ] https://github.com/fkodom/transformer-from-scratch
+  - [ ] https://fkodom.substack.com/p/transformers-from-scratch-in-pytorch
   - [ ] OPTIONAL - reverse engineer and annotate the transformer example
 - [ ] find a new example model architecture to add to repo with PR
   - [ ] port something of [Lucidrains](https://github.com/lucidrains?tab=repositories) over to tinygrad
     - [ ] [vision transformers](https://github.com/lucidrains/vit-pytorch)
     - [ ] [x-transformers](https://github.com/lucidrains/x-transformers)
     - [ ] [x-clip](https://github.com/lucidrains/x-clip)
+  - [ ] [fft convolution](https://github.com/fkodom/fft-conv-pytorch)
 
 ### "Lower"
 - [ ] try some different backends, compare
