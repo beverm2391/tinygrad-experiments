@@ -18,12 +18,12 @@ Update submodules:
 - [X] I think I should go and annotate the tensor class
   - [ ] line 470 -> end still TODO
 - [X] Build simple dataloader
+- [X] build a conv on MNIST
 
 ## TODO
 
 ### "Higher"
-- [X] build a conv on MNIST
-  - [ ] see how well you can get conv performing
+
 - [ ] [here's some papers](https://paperswithcode.com/sota/image-classification-on-mnist) of best performing MNIST models
 - [ ] try to implement a transformer from scratch
   - [ ] https://github.com/fkodom/transformer-from-scratch
