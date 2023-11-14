@@ -48,3 +48,15 @@ Update submodules:
 - [ ] try something cool like sliding window attention, [flash attention](https://github.com/Dao-AILab/flash-attention), [rotary (RoPE) embeddings](https://github.com/lucidrains/rotary-embedding-torch), speculative decoding etc.
 - [ ] speed up something with this [linalg paper](https://arxiv.org/abs/2309.03060)
   - [ ] reverse engineer some of [these operator abstractions](https://github.com/wilson-labs/cola) to see how they work 
+
+
+### Helpful stuff from discord
+
+Flow: `graph -> ast -> linearizer -> renderer -> compiler -> runtime`
+
+- graph -- the full graph of the computation. note that this is both the forward and backward pass, they aren't treated different
+- ast -- a single GPU kernel, marked by a single reduce. a schedule runs a graph as a list of ASTs
+- linearizer -- turns an AST graph into a list of UOps (a linear representation of the program)
+- renderer -- uops -> the source code of the language (like C code)
+- compiler -- source code -> binary (ex: .c -> .so)
+- runtime -- run binary on the hardware
